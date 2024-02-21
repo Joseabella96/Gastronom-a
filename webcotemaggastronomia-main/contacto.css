@@ -1,10 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
 }
-
 /*navbar*/
 
 
@@ -15,7 +15,7 @@
   
 }
 
-.navbar-brand img{
+.navbar-brand img {
   display: flex;
   justify-content: center;
   margin-left: 180px; 
@@ -24,8 +24,8 @@
 }
 
   @media (max-width: 1250px) {
-    .navbar-brand img{
-    width: 95px;;
+   .navbar-brand img{
+    width: 95px;
     float:left;
     max-width: 100%;
     margin-left: 0;
@@ -34,8 +34,8 @@
 }
 
   @media (max-width: 576px) {
-    .navbar-brand img{ 
-    width: 75px; /* Ajusta el ancho según tus necesidades */
+    #navbar-brand img{ 
+    width: 75px; 
     float:left;
     max-width: 100%;
     margin-left: 0;

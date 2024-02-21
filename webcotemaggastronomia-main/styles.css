@@ -14,12 +14,9 @@
 .collapse ul{
   width: 100%;
   margin-left: 100px;
-  
-  
 }
 
 #logo {
-  /* Centra el logo horizontalmente */
   display: flex;
   justify-content: center;
   margin-left: 180px; 
@@ -39,7 +36,7 @@
 
   @media (max-width: 576px) {
     #logo{ 
-    width: 75px; /* Ajusta el ancho según tus necesidades */
+    width: 75px;
     float:left;
     max-width: 100%;
     margin-left: 0;
